@@ -1,0 +1,26 @@
+package com.d.demo;
+
+import java.security.PublicKey;
+import java.util.Date;
+
+import javax.management.loading.PrivateClassLoader;
+
+public class Address {
+	
+	private int addressId;
+	private String street;
+	private String city;
+	private boolean isOpen;
+	private Date addedDate;
+	private double x;
+	private byte[] image;
+	
+	
+	public Address() {
+		super();
+	}
+	
+	
+	public Address(int )
+	
+}
