@@ -11,7 +11,7 @@
 		<property name="connection.username">root</property>
 		<property name="connection.password">Pratham@2911</property>
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
 		<mapping class="com.d.demo.Student"/>
 		<mapping class="com.d.demo.Address" />

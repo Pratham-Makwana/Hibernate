@@ -1,0 +1,21 @@
+package com.d.demo;
+
+import org.hibernate.cfg.Configuration;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class FetchDemo {
+	public static void main(String[] args) {
+		// fetch data using get , load
+		
+		Configuration cfg = new Configuration();
+		cfg.configure("NewFile.xml");
+		SessionFactory factory = cfg.buildSessionFactory();\
+		
+		Session session = factory.openSession();
+		
+		
+		
+		factory.close();
+	}
+}
