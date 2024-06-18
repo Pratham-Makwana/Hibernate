@@ -1,0 +1,41 @@
+package com.map;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class MapMain {
+	public static void main(String[] args) {
+
+		Configuration configuration = new Configuration();
+
+		configuration.configure("NewFile.xml");
+
+		SessionFactory sessionFactory = configuration.buildSessionFactory();
+
+		// creating Question
+		Question question = new Question();
+		question.setQuestionId(101);
+		question.setQustion("what is java");
+		
+		// creating Answer
+		Answer answer = new Answer();
+		answer.setAnswerId(1001);
+		answer.setAnswer("java is Programmin language");
+		question.setAnswer(answer);
+
+		// session
+		Session session = sessionFactory.openSession();
+		Transaction transaction = session.beginTransaction();
+
+		// save
+		session.save(question);
+		session.save(answer);
+		
+		transaction.commit();
+		session.close();
+
+		sessionFactory.close();
+	}
+}
