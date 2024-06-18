@@ -9,29 +9,39 @@ public class Student {
 	private int id;
 	private String name;
 	private String city;
-	
-	
-	public Student (int id,String name, String city) {
+
+	private Certificate certi;
+
+	public Student() {
+
+	}
+
+	public Student(int id, String name, String city) {
 		this.id = id;
 		this.name = name;
 		this.city = city;
 	}
-	
-	public Student() {
-		
+
+	public Certificate getCeri() {
+		return certi;
 	}
-	
+
+	public void setCerti(Certificate certi) {
+		this.certi = certi;
+	}
+
 	public String getName() {
 		return name;
 	}
-	 public String getCity() {
-		 return city;
-		
-	 }
-	 
-	 public int getId() {
-		 return id;
-	 }
+
+	public String getCity() {
+		return city;
+
+	}
+
+	public int getId() {
+		return id;
+	}
 
 	public void setId(int id) {
 		this.id = id;
