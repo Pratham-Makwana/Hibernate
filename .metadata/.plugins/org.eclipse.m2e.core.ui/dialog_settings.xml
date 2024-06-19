@@ -27,12 +27,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.pratham"/>
 			<item value="com.d.demo"/>
 		</list>
 		<list key="groupId">
+			<item value="com.pratham"/>
 			<item value="com.d"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernateMap"/>
 			<item value="demo"/>
 		</list>
 		<list key="projectNameTemplate">
