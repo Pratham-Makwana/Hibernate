@@ -3355,3 +3355,22 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2024-06-24 16:14:39,168 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
 2024-06-24 16:15:11,522 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-06-24 16:15:11,527 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-24 16:16:12,524 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-24 16:16:12,528 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-24 17:51:58,742 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@60b9bce8{STOPPING}[12.0.9,sto=0]
+2024-06-24 17:51:58,757 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@752aecb7{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-06-25 16:08:59,750 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-25 16:09:03,029 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.NoteTakerApp:NoteTaker:0.0.1-SNAPSHOT @ C:\Users\Pratham\eclipse-workspace\NoteTaker\pom.xml.
+2024-06-25 16:09:03,210 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pratham:hibernateMap:0.0.1-SNAPSHOT @ C:\Users\Pratham\eclipse-workspace\hibernateMap\pom.xml.
+2024-06-25 16:09:03,245 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.d:demo:0.0.1-SNAPSHOT @ C:\Users\Pratham\eclipse-workspace\demo\pom.xml.
+2024-06-25 16:17:30,710 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 22.0.1+8
+2024-06-25 16:17:30,764 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@16177ed1{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@427a0d27{STARTED}}
+2024-06-25 16:17:30,764 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-06-25 16:17:30,803 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2fefbc5c{HTTP/1.1, (http/1.1)}{127.0.0.1:56027}
+2024-06-25 16:17:30,826 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@28f9e951{STARTING}[12.0.9,sto=0] @524025ms
+2024-06-25 16:20:35,905 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-25 16:20:35,911 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-25 16:26:31,630 [Worker-34: Launching HQLExample] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-25 16:26:31,636 [Worker-34: Launching HQLExample] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-25 16:27:19,128 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-25 16:27:19,130 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
