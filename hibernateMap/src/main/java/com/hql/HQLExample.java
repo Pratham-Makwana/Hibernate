@@ -1,9 +1,10 @@
 package com.hql;
 
-import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-import org.hibernate.Query;
+import org.hibernate.query.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -58,12 +59,22 @@ public class HQLExample {
 		System.out.println("deleted" + r);
 
 		// Update Query
-//		Query uQuery = session.createQuery("update Student set city=:c where name=:n");
-//		uQuery.setParameter("c", "Delhi");
-//		uQuery.setParameter("n", "peter");
-//		int row = uQuery.executeUpdate();
-//		System.out.println("Upadate row: " + row);
+		Query uQuery = session.createQuery("update Student set city=:c where name=:n");
+		uQuery.setParameter("c", "Delhi");
+		uQuery.setParameter("n", "peter");
+		int row = uQuery.executeUpdate();
+		System.out.println("Upadate row: " + row);
 
+		
+		// Join Query Using Question & Answer OneToMany Entity
+		 Query jonQuery = session.createQuery("select q.question, q.questinId,a.answer from Question as q INNER JOIN  q.answer as a ");
+		 List<Object[]> list3 =jonQuery.getResultList();// you can use list as well as getResultList
+		 for (Object[] objects : list3) {
+			System.out.println(Arrays.toString(objects));
+		}
+		
+		
+		//
 		tx.commit();
 
 		session.close();
